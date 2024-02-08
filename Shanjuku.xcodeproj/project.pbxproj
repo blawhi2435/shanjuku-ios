@@ -27,6 +27,11 @@
 		F4A8031B2B73302900D648DC /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8031A2B73302900D648DC /* Activity.swift */; };
 		F4A8031D2B734A4100D648DC /* ActivityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8031C2B734A4100D648DC /* ActivityListView.swift */; };
 		F4A8031F2B7358A300D648DC /* ActivityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8031E2B7358A300D648DC /* ActivityList.swift */; };
+		F4BE55342B74E3EC00DA5E79 /* ScheduleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE55332B74E3EC00DA5E79 /* ScheduleList.swift */; };
+		F4BE55362B74E7BC00DA5E79 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE55352B74E7BC00DA5E79 /* Schedule.swift */; };
+		F4BE55382B74F02500DA5E79 /* TimeStyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE55372B74F02500DA5E79 /* TimeStyleModifier.swift */; };
+		F4BE553B2B74F2A700DA5E79 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE553A2B74F2A700DA5E79 /* CustomColor.swift */; };
+		F4BE553E2B75438700DA5E79 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE553D2B75438700DA5E79 /* Time.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +56,11 @@
 		F4A8031A2B73302900D648DC /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		F4A8031C2B734A4100D648DC /* ActivityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListView.swift; sourceTree = "<group>"; };
 		F4A8031E2B7358A300D648DC /* ActivityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityList.swift; sourceTree = "<group>"; };
+		F4BE55332B74E3EC00DA5E79 /* ScheduleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleList.swift; sourceTree = "<group>"; };
+		F4BE55352B74E7BC00DA5E79 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		F4BE55372B74F02500DA5E79 /* TimeStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeStyleModifier.swift; sourceTree = "<group>"; };
+		F4BE553A2B74F2A700DA5E79 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		F4BE553D2B75438700DA5E79 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,7 @@
 		F44CFBA42B713D6800A467B0 /* Shanjuku */ = {
 			isa = PBXGroup;
 			children = (
+				F4BE553C2B75429400DA5E79 /* Utilities */,
 				F4A8030C2B72866600D648DC /* Repository */,
 				F4A803092B72861000D648DC /* System */,
 				F4A802FF2B7223A500D648DC /* Interactors */,
@@ -117,6 +128,7 @@
 		F44CFBB42B7157AC00A467B0 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				F4BE55392B74F16700DA5E79 /* Modifier */,
 				F44CFBA52B713D6800A467B0 /* ShanjukuApp.swift */,
 				F44CFBB52B7157B800A467B0 /* Component */,
 				F44CFBB32B713DD000A467B0 /* Screen */,
@@ -128,6 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				F4A8031E2B7358A300D648DC /* ActivityList.swift */,
+				F4BE55332B74E3EC00DA5E79 /* ScheduleList.swift */,
+				F4BE553A2B74F2A700DA5E79 /* CustomColor.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -138,6 +152,7 @@
 				F4A802F62B71F11D00D648DC /* Group.swift */,
 				F4A803162B72A7AD00D648DC /* User.swift */,
 				F4A8031A2B73302900D648DC /* Activity.swift */,
+				F4BE55352B74E7BC00DA5E79 /* Schedule.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -177,6 +192,22 @@
 				F4A803142B72A79300D648DC /* UserRepository.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		F4BE55392B74F16700DA5E79 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE55372B74F02500DA5E79 /* TimeStyleModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		F4BE553C2B75429400DA5E79 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE553D2B75438700DA5E79 /* Time.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +282,7 @@
 			files = (
 				F4A8031B2B73302900D648DC /* Activity.swift in Sources */,
 				F44CFBA82B713D6800A467B0 /* MainView.swift in Sources */,
+				F4BE553B2B74F2A700DA5E79 /* CustomColor.swift in Sources */,
 				F44CFBA62B713D6800A467B0 /* ShanjukuApp.swift in Sources */,
 				F4A802FC2B72185700D648DC /* AppState.swift in Sources */,
 				F4A802F42B71E42500D648DC /* GroupListView.swift in Sources */,
@@ -260,13 +292,17 @@
 				F4A8030E2B7286FB00D648DC /* AppEnvironment.swift in Sources */,
 				F4A802FA2B7217A800D648DC /* DependencyInjector.swift in Sources */,
 				F4A803012B7223D200D648DC /* GroupInteractor.swift in Sources */,
+				F4BE55342B74E3EC00DA5E79 /* ScheduleList.swift in Sources */,
 				F4A803102B728B0800D648DC /* RepositoryContainer.swift in Sources */,
 				F4A803192B72A93900D648DC /* UserInteractor.swift in Sources */,
 				F4A802FE2B7219DC00D648DC /* InteractorsContainer.swift in Sources */,
 				F4A803172B72A7AD00D648DC /* User.swift in Sources */,
 				F4A803152B72A79300D648DC /* UserRepository.swift in Sources */,
 				F4A803132B72A5DF00D648DC /* GroupDetailView.swift in Sources */,
+				F4BE55362B74E7BC00DA5E79 /* Schedule.swift in Sources */,
 				F4A803042B72260500D648DC /* GroupRepository.swift in Sources */,
+				F4BE55382B74F02500DA5E79 /* TimeStyleModifier.swift in Sources */,
+				F4BE553E2B75438700DA5E79 /* Time.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
