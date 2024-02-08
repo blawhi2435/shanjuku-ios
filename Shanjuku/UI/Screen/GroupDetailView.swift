@@ -57,7 +57,7 @@ struct GroupDetailView: View {
                 } label: {
                     Text("\(Image(systemName: "chevron.left"))")
                 }
-                .tint(.brown)
+                .tint(.darkGreen)
             }
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button {
@@ -65,7 +65,7 @@ struct GroupDetailView: View {
                 } label: {
                     Image(systemName: "plus")
                 }
-                .tint(.brown)
+                .tint(.darkGreen)
             }
         }
     }

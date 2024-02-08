@@ -17,7 +17,7 @@ struct ActivityList: View {
         
         List {
             ForEach(activities) { activity in
-                VStack(spacing: 25){
+                VStack() {
                     Image(activity.coverPhoto)
                         .resizable()
                         .scaledToFill()
@@ -63,6 +63,7 @@ struct ActivityList: View {
                 ShowExpireActivityButton()
                 Spacer()
             }
+            .listRowSeparator(.hidden)
         }
         .listStyle(.plain)
     }
@@ -76,11 +77,11 @@ struct ShowExpireActivityButton: View {
         } label: {
             Text("Show completed activities")
                 .padding()
-                .foregroundStyle(Color(.brown))
+                .foregroundStyle(Color.darkGreen)
         }
         .overlay{
             RoundedRectangle(cornerRadius: 10)
-                .stroke(Color.brown, lineWidth: 2)
+                .stroke(Color.darkGreen, lineWidth: 2)
         }.alert("test", isPresented: $test) {
             Button("OK") {}
         }

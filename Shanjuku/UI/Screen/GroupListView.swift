@@ -40,7 +40,7 @@ struct GroupView: View {
                     } label: {
                         Image(systemName: "plus")
                     }
-                    .tint(.brown)
+                    .tint(.darkGreen)
                 }
             }
         }

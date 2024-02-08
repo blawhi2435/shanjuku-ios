@@ -34,9 +34,9 @@ enum Tab: Int, CaseIterable, Identifiable {
     
     var activeColor: Color {
         switch self {
-        case .groups: return Color.brown
-        case .activity: return Color.brown
-        case .account: return Color.brown
+        case .groups: return Color.darkGreen
+        case .activity: return Color.darkGreen
+        case .account: return Color.darkGreen
         }
     }
 }
@@ -73,7 +73,7 @@ struct MainView: View {
                 }
             }
         }
-        .tint(.brown)
+        .tint(.darkGreen)
     }
 }
 
