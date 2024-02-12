@@ -11,10 +11,12 @@ extension DIContainer {
     struct Repositories {
         let groupRepository: GroupRepository
         let userRepository: UserRepository
+        let activityRepository: ActivityRepository
         
-        init(groupRepository: GroupRepository, userRepository: UserRepository) {
+        init(groupRepository: GroupRepository, userRepository: UserRepository, activityRepository: ActivityRepository) {
             self.groupRepository = groupRepository
             self.userRepository = userRepository
+            self.activityRepository = activityRepository
         }
     }
 }

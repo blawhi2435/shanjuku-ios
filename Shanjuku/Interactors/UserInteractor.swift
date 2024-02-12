@@ -33,6 +33,6 @@ extension UserInteractorImpl {
     }
 }
 
-struct stubUserInteractorImpl: UserInteractor {
+struct StubUserInteractorImpl: UserInteractor {
     func loadUserActivities(userID: String, activities: Binding<[Activity]>) {}
 }

@@ -11,6 +11,13 @@
 		F44CFBA82B713D6800A467B0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44CFBA72B713D6800A467B0 /* MainView.swift */; };
 		F44CFBAA2B713D6F00A467B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44CFBA92B713D6F00A467B0 /* Assets.xcassets */; };
 		F44CFBAD2B713D6F00A467B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44CFBAC2B713D6F00A467B0 /* Preview Assets.xcassets */; };
+		F4859D302B778B00004C3838 /* ActivityRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4859D2F2B778B00004C3838 /* ActivityRepository.swift */; };
+		F4859D322B7799A5004C3838 /* ActivityInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4859D312B7799A5004C3838 /* ActivityInteractor.swift */; };
+		F4859D342B789688004C3838 /* ScheduleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4859D332B789688004C3838 /* ScheduleListView.swift */; };
+		F4859D362B78ABD3004C3838 /* CreateGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4859D352B78ABD3004C3838 /* CreateGroupView.swift */; };
+		F4859D382B78B3DB004C3838 /* IconFormText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4859D372B78B3DB004C3838 /* IconFormText.swift */; };
+		F4859D3A2B78B7B2004C3838 /* FormText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4859D392B78B7B2004C3838 /* FormText.swift */; };
+		F4859D3C2B78BFDE004C3838 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4859D3B2B78BFDE004C3838 /* Photo.swift */; };
 		F4A802F42B71E42500D648DC /* GroupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A802F32B71E42500D648DC /* GroupListView.swift */; };
 		F4A802F72B71F11D00D648DC /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A802F62B71F11D00D648DC /* Group.swift */; };
 		F4A802FA2B7217A800D648DC /* DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A802F92B7217A800D648DC /* DependencyInjector.swift */; };
@@ -27,7 +34,6 @@
 		F4A8031B2B73302900D648DC /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8031A2B73302900D648DC /* Activity.swift */; };
 		F4A8031D2B734A4100D648DC /* ActivityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8031C2B734A4100D648DC /* ActivityListView.swift */; };
 		F4A8031F2B7358A300D648DC /* ActivityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8031E2B7358A300D648DC /* ActivityList.swift */; };
-		F4BE55342B74E3EC00DA5E79 /* ScheduleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE55332B74E3EC00DA5E79 /* ScheduleList.swift */; };
 		F4BE55362B74E7BC00DA5E79 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE55352B74E7BC00DA5E79 /* Schedule.swift */; };
 		F4BE55382B74F02500DA5E79 /* TimeStyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE55372B74F02500DA5E79 /* TimeStyleModifier.swift */; };
 		F4BE553B2B74F2A700DA5E79 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE553A2B74F2A700DA5E79 /* CustomColor.swift */; };
@@ -40,6 +46,13 @@
 		F44CFBA72B713D6800A467B0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F44CFBA92B713D6F00A467B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F44CFBAC2B713D6F00A467B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4859D2F2B778B00004C3838 /* ActivityRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRepository.swift; sourceTree = "<group>"; };
+		F4859D312B7799A5004C3838 /* ActivityInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInteractor.swift; sourceTree = "<group>"; };
+		F4859D332B789688004C3838 /* ScheduleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListView.swift; sourceTree = "<group>"; };
+		F4859D352B78ABD3004C3838 /* CreateGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupView.swift; sourceTree = "<group>"; };
+		F4859D372B78B3DB004C3838 /* IconFormText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFormText.swift; sourceTree = "<group>"; };
+		F4859D392B78B7B2004C3838 /* FormText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormText.swift; sourceTree = "<group>"; };
+		F4859D3B2B78BFDE004C3838 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		F4A802F32B71E42500D648DC /* GroupListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListView.swift; sourceTree = "<group>"; };
 		F4A802F62B71F11D00D648DC /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		F4A802F92B7217A800D648DC /* DependencyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjector.swift; sourceTree = "<group>"; };
@@ -56,7 +69,6 @@
 		F4A8031A2B73302900D648DC /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		F4A8031C2B734A4100D648DC /* ActivityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListView.swift; sourceTree = "<group>"; };
 		F4A8031E2B7358A300D648DC /* ActivityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityList.swift; sourceTree = "<group>"; };
-		F4BE55332B74E3EC00DA5E79 /* ScheduleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleList.swift; sourceTree = "<group>"; };
 		F4BE55352B74E7BC00DA5E79 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		F4BE55372B74F02500DA5E79 /* TimeStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeStyleModifier.swift; sourceTree = "<group>"; };
 		F4BE553A2B74F2A700DA5E79 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
@@ -121,6 +133,8 @@
 				F4A802F32B71E42500D648DC /* GroupListView.swift */,
 				F4A803122B72A5DF00D648DC /* GroupDetailView.swift */,
 				F4A8031C2B734A4100D648DC /* ActivityListView.swift */,
+				F4859D332B789688004C3838 /* ScheduleListView.swift */,
+				F4859D352B78ABD3004C3838 /* CreateGroupView.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -140,8 +154,9 @@
 			isa = PBXGroup;
 			children = (
 				F4A8031E2B7358A300D648DC /* ActivityList.swift */,
-				F4BE55332B74E3EC00DA5E79 /* ScheduleList.swift */,
 				F4BE553A2B74F2A700DA5E79 /* CustomColor.swift */,
+				F4859D372B78B3DB004C3838 /* IconFormText.swift */,
+				F4859D392B78B7B2004C3838 /* FormText.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -173,6 +188,7 @@
 			children = (
 				F4A803002B7223D200D648DC /* GroupInteractor.swift */,
 				F4A803182B72A93900D648DC /* UserInteractor.swift */,
+				F4859D312B7799A5004C3838 /* ActivityInteractor.swift */,
 			);
 			path = Interactors;
 			sourceTree = "<group>";
@@ -190,6 +206,7 @@
 			children = (
 				F4A803032B72260500D648DC /* GroupRepository.swift */,
 				F4A803142B72A79300D648DC /* UserRepository.swift */,
+				F4859D2F2B778B00004C3838 /* ActivityRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -206,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				F4BE553D2B75438700DA5E79 /* Time.swift */,
+				F4859D3B2B78BFDE004C3838 /* Photo.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -281,20 +299,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4A8031B2B73302900D648DC /* Activity.swift in Sources */,
+				F4859D382B78B3DB004C3838 /* IconFormText.swift in Sources */,
 				F44CFBA82B713D6800A467B0 /* MainView.swift in Sources */,
+				F4859D362B78ABD3004C3838 /* CreateGroupView.swift in Sources */,
 				F4BE553B2B74F2A700DA5E79 /* CustomColor.swift in Sources */,
 				F44CFBA62B713D6800A467B0 /* ShanjukuApp.swift in Sources */,
+				F4859D3A2B78B7B2004C3838 /* FormText.swift in Sources */,
 				F4A802FC2B72185700D648DC /* AppState.swift in Sources */,
 				F4A802F42B71E42500D648DC /* GroupListView.swift in Sources */,
 				F4A8031F2B7358A300D648DC /* ActivityList.swift in Sources */,
+				F4859D322B7799A5004C3838 /* ActivityInteractor.swift in Sources */,
 				F4A8031D2B734A4100D648DC /* ActivityListView.swift in Sources */,
 				F4A802F72B71F11D00D648DC /* Group.swift in Sources */,
 				F4A8030E2B7286FB00D648DC /* AppEnvironment.swift in Sources */,
 				F4A802FA2B7217A800D648DC /* DependencyInjector.swift in Sources */,
 				F4A803012B7223D200D648DC /* GroupInteractor.swift in Sources */,
-				F4BE55342B74E3EC00DA5E79 /* ScheduleList.swift in Sources */,
 				F4A803102B728B0800D648DC /* RepositoryContainer.swift in Sources */,
 				F4A803192B72A93900D648DC /* UserInteractor.swift in Sources */,
+				F4859D302B778B00004C3838 /* ActivityRepository.swift in Sources */,
+				F4859D342B789688004C3838 /* ScheduleListView.swift in Sources */,
 				F4A802FE2B7219DC00D648DC /* InteractorsContainer.swift in Sources */,
 				F4A803172B72A7AD00D648DC /* User.swift in Sources */,
 				F4A803152B72A79300D648DC /* UserRepository.swift in Sources */,
@@ -303,6 +326,7 @@
 				F4A803042B72260500D648DC /* GroupRepository.swift in Sources */,
 				F4BE55382B74F02500DA5E79 /* TimeStyleModifier.swift in Sources */,
 				F4BE553E2B75438700DA5E79 /* Time.swift in Sources */,
+				F4859D3C2B78BFDE004C3838 /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

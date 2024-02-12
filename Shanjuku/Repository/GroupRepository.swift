@@ -9,7 +9,8 @@ import Foundation
 
 protocol GroupRepository {
     func fetchGroups() -> [Group]
-    func fetchUsersAndActivitiesByGroupID(by groupID: String) -> ([User], [Activity])
+    func fetchUsersAndActivitiesInGroup(by groupID: String) -> ([User], [Activity])
+    func fetchUsersInGroup(by groupID: String) -> ([User])
 }
 
 struct GroupRepositoryImpl: GroupRepository{
@@ -27,7 +28,7 @@ extension GroupRepositoryImpl {
         return groups
     }
     
-    func fetchUsersAndActivitiesByGroupID(by groupID: String) -> ([User], [Activity]) {
+    func fetchUsersAndActivitiesInGroup(by groupID: String) -> ([User], [Activity]) {
         let users: [User] = [
             User(id: "1", account: "account1", name: "name1", avatar: "student"),
             User(id: "2", account: "account2", name: "name2", avatar: "student"),
@@ -42,5 +43,15 @@ extension GroupRepositoryImpl {
         ]
         
         return (users, activities)
+    }
+    
+    func fetchUsersInGroup(by groupID: String) -> ([User]) {
+        let users: [User] = [
+            User(id: "1", account: "account1", name: "name1", avatar: "student"),
+            User(id: "2", account: "account2", name: "name2", avatar: "student"),
+            User(id: "3", account: "account3", name: "name3", avatar: "student")
+        ]
+        
+        return users
     }
 }

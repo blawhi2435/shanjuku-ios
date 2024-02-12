@@ -12,9 +12,9 @@ struct Schedule: Identifiable {
     var name: String
     var location: String
     var comment: String
-    var touristGuideName: String
-    var touristGuideAvatar: String
     var date: String
     var startTime: String
     var endTime: String
+    
+    var touristGuides: [User]
 }

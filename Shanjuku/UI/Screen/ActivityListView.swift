@@ -13,7 +13,7 @@ struct ActivityListView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                ActivityList(activities: activities)
+                ActivityList(activities: activities, users: [])
                 
             }
             .navigationTitle("My Activities")

@@ -10,6 +10,8 @@ import SwiftUI
 struct GroupView: View {
     @Environment(\.injected) private var injected: DIContainer
     @State var groups: [Group] = []
+    @State private var showCreateGroup: Bool = false
+    
     var body: some View {
         NavigationStack {
             List {
@@ -36,12 +38,15 @@ struct GroupView: View {
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
-                        //Todo action
+                        self.showCreateGroup = true
                     } label: {
                         Image(systemName: "plus")
                     }
                     .tint(.darkGreen)
                 }
+            }
+            .fullScreenCover(isPresented: $showCreateGroup) {
+                CreateGroupView()
             }
         }
         .onAppear {
